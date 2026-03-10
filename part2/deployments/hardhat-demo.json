@@ -1,0 +1,35 @@
+{
+  "network": "hardhat",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "validator": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "mockPairs": {
+    "pairAB": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "pairBC": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "pairCA": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+  },
+  "cycle": {
+    "tokens": [
+      "0x5C99Baf98C036f282306D69B41575B7F4cB7347e",
+      "0x5c0FBBb1aDa8022f9c1E5d38F75323fB3c5b3425",
+      "0x814C38bf231491c6E6f434FE85dC05712CBc7467",
+      "0x5C99Baf98C036f282306D69B41575B7F4cB7347e"
+    ],
+    "pools": [
+      "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+    ],
+    "amountInRaw": "10000000000000000000",
+    "minOutRaw": "11800228454294825755",
+    "expectedOutRaw": "12000253838105361951",
+    "quotedOutRaw": "12000253838105361951",
+    "previewValidatedOutRaw": "12000253838105361951",
+    "validatedOutRaw": "12000253838105361951",
+    "cycleHash": "0x86be1b7618c24f6d86d4349dfc481303823134ade070119c79c83696b63fb02f"
+  },
+  "proof": {
+    "validationTxHash": "0x078d96d09b59f26d8d68f21a1c43ba2ff6c72d3717dc40ab6e957501f5d19b64",
+    "validationBlockNumber": 5,
+    "gasUsed": "58200"
+  }
+}

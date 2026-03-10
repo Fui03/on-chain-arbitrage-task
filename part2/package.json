@@ -1,0 +1,17 @@
+{
+  "name": "dex-arbitrage-validator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Hardhat utilities for validating ranked arbitrage cycles against live or mocked Uniswap V2 reserves.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "validate": "hardhat run scripts/validate-cycle.js",
+    "testnet:demo": "hardhat run --network sepolia scripts/run-testnet-demo.js",
+    "testnet:smoke": "hardhat run scripts/run-testnet-demo.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.16"
+  }
+}

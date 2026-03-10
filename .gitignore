@@ -1,0 +1,5 @@
+.DS_Store
+part1/bin/
+part2/node_modules/
+part2/cache/
+part2/artifacts/

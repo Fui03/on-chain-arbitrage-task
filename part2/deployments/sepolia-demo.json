@@ -1,0 +1,35 @@
+{
+  "network": "sepolia",
+  "deployer": "0x9e61B993e4cDcEF54842B6B71D419827Bc567cb0",
+  "validator": "0x3A9a912C1ed0A34C3314504EaD8466615e5E967D",
+  "mockPairs": {
+    "pairAB": "0x6163CFD9ec9eaFD10eD6dfc0AcbEf3428a544d18",
+    "pairBC": "0x8a5a4F0Fd6C81980aB3f981C0e7d4813197EA921",
+    "pairCA": "0x01DF2F5E51bEFA47482f2Ff5E81980B3983a230F"
+  },
+  "cycle": {
+    "tokens": [
+      "0xDAADb951ECC173Ab9815C729326A4b1E7F003234",
+      "0x2b72EDE6D6943FccDD61e0d388B782DC2000d498",
+      "0x77fdB9deB35a3d2a6C6a01a24ca38d3C40E5ee1B",
+      "0xDAADb951ECC173Ab9815C729326A4b1E7F003234"
+    ],
+    "pools": [
+      "0x6163CFD9ec9eaFD10eD6dfc0AcbEf3428a544d18",
+      "0x8a5a4F0Fd6C81980aB3f981C0e7d4813197EA921",
+      "0x01DF2F5E51bEFA47482f2Ff5E81980B3983a230F"
+    ],
+    "amountInRaw": "10000000000000000000",
+    "minOutRaw": "11800228454294825755",
+    "expectedOutRaw": "12000253838105361951",
+    "quotedOutRaw": "12000253838105361951",
+    "previewValidatedOutRaw": "12000253838105361951",
+    "validatedOutRaw": "12000253838105361951",
+    "cycleHash": "0x6b7c1dba6b10a2fa50c38253d90b6fb9ab329c61e9fbffe9e884a54dfb4b2786"
+  },
+  "proof": {
+    "validationTxHash": "0x6f43a15cf2d03ee6cc070c1f0eee6a35d00110ca17c81c1f96a7d91e43cf7745",
+    "validationBlockNumber": 10415564,
+    "gasUsed": "58164"
+  }
+}
