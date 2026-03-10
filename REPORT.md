@@ -231,3 +231,49 @@ Problems and limitations:
 - the original plan assumed a local C++ JSON library, but none was installed and external downloads were restricted
 - Hardhat dependency installation and local contract tests were eventually completed, but live mainnet-fork validation still depends on a responsive RPC endpoint
 - generated code still required manual review and correction, especially around option plumbing and build consistency
+
+### Codex
+
+1. Give context first. Tell Codex:
+
+- what the project is
+- the goal
+- the constraints
+- the tech stack
+- what it must not change
+- what “good output” means
+
+2. Force planning before coding. Ask it to:
+- restate the task
+- identify assumptions
+- list risks or unclear parts
+- propose a step-by-step implementation plan
+- wait for approval before writing code
+This helps prevent it from jumping ahead.
+
+3. Review and adjust the plan. 
+After Codex gives the plan, you refine:
+- missing steps
+- wrong assumptions
+- scope that is too big
+- architecture decisions you do or do not want
+
+4. Ask it to code in small steps. Instead of “build everything,” ask:
+
+- implement step 1 only
+- explain what changed
+- show only relevant files
+- do not modify unrelated code
+- wait for review before step 2
+- This keeps the process controlled.
+
+5. Ask for self-review after each step.
+For every coding step, ask Codex to check:
+- correctness
+- edge cases
+- whether it breaks existing logic
+- whether the implementation matches the agreed plan
+- possible improvements
+
+A useful instruction is:
+“Before finalizing this step, review your code carefully for bugs, bad assumptions, and unnecessary changes.”
